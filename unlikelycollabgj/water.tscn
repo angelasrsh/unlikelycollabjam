@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dl5xfypnctypv"]
+
+[ext_resource type="Script" path="res://water.gd" id="1_d5yhx"]
+
+[node name="water" type="Line2D"]
+default_color = Color(0.105979, 0.431017, 0.707086, 1)
+script = ExtResource("1_d5yhx")
+fs = 170
+fmax = 90
+length_multiplier = 20
